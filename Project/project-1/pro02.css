@@ -17,7 +17,6 @@ header{
 .div1{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-columns: ;
     background-color: rgb(230, 223, 223);
     width: 100%;
     justify-items: center;
