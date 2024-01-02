@@ -1,0 +1,15 @@
+h1 {
+    color:blue;
+
+}
+h2 {
+    background-color: aquamarine;
+}
+div {
+    border: 1px dotted;
+    border-radius: 3px;
+
+}
+span{
+    border: 2px red solid;
+}
