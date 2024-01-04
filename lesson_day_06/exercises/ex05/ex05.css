@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    min-width: 400px;
+    max-width: 1200px;
+    
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+div{
+    background-color: aqua;
+    border: 1px;
+    width: 30%;
+}

@@ -1,0 +1,14 @@
+.sml{
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    overflow: scroll;
+   
+}
+.big{
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    width: 300px;
+}
