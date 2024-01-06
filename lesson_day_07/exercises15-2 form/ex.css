@@ -1,0 +1,52 @@
+body{
+    max-width: 1200px;
+    height: 100vh;
+    background-image: linear-gradient(white, gray , black);
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: normal;
+   
+    margin: 0 auto;
+    padding: 10px 30px 10px 30px;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+}
+.box2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    mix-blend-mode: normal;
+}.box1{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    background-image: url(./bg.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    mix-blend-mode:normal
+    
+}
+h2{
+    color: gray;
+    line-height: 15px;
+}
+.a123{
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 5px 30px 5px 30px;
+    border-radius: 15px;
+    mix-blend-mode:normal
+}
+input[text]{
+    border: solid;
+    border-color: gray;
+    border-radius: 5px;
+}

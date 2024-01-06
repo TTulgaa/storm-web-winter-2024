@@ -1,0 +1,26 @@
+/* ex01
+ul{
+    list-style-type: circle;
+} */
+/* ex02 */
+/* ul{
+    list-style-type: lower-roman;
+} */
+/* ex03 */
+/* ul{
+    list-style-type: lower-alpha;s
+} */
+/* ex04 */
+/* ul{
+    list-style-type: square;
+} */
+/* ex05 */
+/* ul{
+    list-style-image: url("./pic-star.png");
+} */
+/* ex07 */
+/* ul{
+    list-style-image: url("./spoon.png") ;
+
+    margin-left: 400px;
+} */
