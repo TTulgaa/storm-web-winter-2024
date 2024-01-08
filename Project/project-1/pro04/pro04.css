@@ -1058,7 +1058,7 @@ footer {
     height: 61.58px;
     box-sizing: border-box;
     padding: 15.41px 17.6px 15.39px 17.6px;
-    justify: space-between;
+    justify-content: space-between;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
   }
   nav {
