@@ -235,12 +235,11 @@ nav {
   width: 1790px;
   padding: 30px 89.49px 30px 89.49px;
   box-sizing: border-box;
-  margin: 0 auto;
   margin: 0px;
+  margin: 0 auto;
 }
 .sc3box1 {
   width: 1611.02px;
-
   margin: 0 auto;
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -1049,8 +1048,6 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 0px;
-    width: 616.25px;
-    margin: 0 auto;
   }
   header {
     width: 616.25px;
