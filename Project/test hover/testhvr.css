@@ -1,0 +1,126 @@
+.box {
+  width: 900px;
+  height: 450px;
+  background-color: aqua;
+  margin: 0 auto;
+  position: relative;
+}
+.box1 {
+  display: block;
+  position: absolute;
+  width: 400px;
+  height: 250px;
+  top: 20px;
+  right: 250px;
+  visibility: inherit;
+  background-color: black;
+  transition: width 1s linear 0s, height 1s linear 0s, top 1s linear 0s,
+    right 1s linear 0s, visibility 0s linear 1s;
+}
+.box1-1 {
+  visibility: hidden;
+  width: 40px;
+  height: 25px;
+  position: absolute;
+  top: 125px;
+  right: 40px;
+  background-color: black;
+  transition: width 1s linear 0s, height 1s linear 0s, top 1s linear 0s,
+    right 1s linear 0s, visibility 0s linear 0s;
+}
+.box2 {
+  visibility: hidden;
+  width: 40px;
+  height: 25px;
+  position: absolute;
+  top: 125px;
+  right: 40px;
+  background-color: white;
+  transition: width 1s linear 0s, height 1s linear 0s, top 1s linear 0s,
+    right 1s linear 0s, visibility 0s linear 0s;
+}
+.box3 {
+  visibility: hidden;
+  width: 40px;
+  height: 25px;
+  position: absolute;
+  top: 125px;
+  right: 40px;
+  background-color: grey;
+  transition: width 1s linear 0s, height 1s linear 0s, top 1s linear 0s,
+    right 1s linear 0s, visibility 0s linear 0s;
+}
+.box4 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 20px;
+  left: 200px;
+  background-color: grey;
+  text-align: center;
+}
+.box5 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border-radius: 50px;
+  bottom: 20px;
+  left: 400px;
+  background-color: grey;
+  text-align: center;
+}
+.box6 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border-radius: 50px;
+  bottom: 20px;
+  right: 200px;
+  background-color: grey;
+  text-align: center;
+}
+.box:has(.box5:hover) .box1 {
+  width: 40px;
+  height: 25px;
+  position: absolute;
+  top: 125px;
+  right: 40px;
+  visibility: hidden;
+}
+.box:has(.box5:hover) .box2 {
+  position: absolute;
+  width: 400px;
+  height: 250px;
+  top: 20px;
+  right: 250px;
+  visibility: inherit;
+}
+.box:has(.box6:hover) .box3 {
+  position: absolute;
+  width: 400px;
+  height: 250px;
+  top: 20px;
+  right: 250px;
+  visibility: inherit;
+}
+.box:has(.box6:hover) .box1 {
+  width: 40px;
+  height: 25px;
+  position: absolute;
+  top: 125px;
+  right: 40px;
+  visibility: hidden;
+}
+.box:has(.box4:hover) .box1-1 {
+  position: absolute;
+  width: 400px;
+  height: 250px;
+  top: 20px;
+  right: 250px;
+  visibility: inherit;
+}
+.box:has(.box4:hover) .box1 {
+  visibility: hidden;
+  background-color: aqua;
+}
