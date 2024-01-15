@@ -1,0 +1,33 @@
+#page {
+  width: 900px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  padding: 0px;
+  margin: 0 auto;
+  border: 1px solid;
+}
+.box {
+  width: 510px;
+  height: 500px;
+  border: 1px solid blue;
+}
+.box1 {
+  width: 510px;
+  height: 300px;
+  border: 1px solid red;
+  column-width: 200px;
+}
+
+span {
+  break-after: column;
+}
+p::first-letter {
+  color: #8a2be2;
+  initial-letter: 2;
+}
+b {
+  font-size: 20px;
+}
