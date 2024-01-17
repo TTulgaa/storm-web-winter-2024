@@ -1,0 +1,93 @@
+body {
+  display: flex;
+  gap: 50px;
+}
+
+.box {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(43, 42, 42);
+
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  width: 250px;
+  height: 80px;
+  background-color: aqua;
+  transform: translate(0) rotate(0deg);
+  transition: all;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+}
+.box3 {
+  width: 250px;
+  height: 170px;
+  background-color: aqua;
+  z-index: 1;
+}
+.box2 {
+  position: absolute;
+  top: 240px;
+  left: 225px;
+  color: white;
+  transform: translate(0);
+  transition: all;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+}
+.box:has(.box3:hover) .box1 {
+  transform: translate(30px, -80px) rotate(15deg);
+}
+.box:has(.box3:hover) .box2 {
+  transform: translate(0px, -80px);
+}
+.box4 {
+  width: 250px;
+  height: 80px;
+  background-color: aqua;
+  animation-name: first;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+.box5 {
+  position: absolute;
+  top: 240px;
+  left: 775px;
+  color: white;
+  animation-name: second;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+@keyframes first {
+  from {
+    transform: translate(0) rotate(0deg);
+  }
+  50% {
+    transform: translate(30px, -80px) rotate(15deg);
+  }
+  to {
+    transform: translate(0) rotate(0deg);
+  }
+}
+@keyframes second {
+  from {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(0px, -80px);
+  }
+  to {
+    transform: translate(0px);
+  }
+}
