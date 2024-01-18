@@ -1,0 +1,5 @@
+document.write('Зоригт Мөнхтулга')
+document.write('123')
+document.write('123')
+document.write('123')
+alert("танилцахад таатай байлаа")
