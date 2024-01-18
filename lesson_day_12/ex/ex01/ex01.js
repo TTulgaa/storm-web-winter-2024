@@ -85,7 +85,9 @@ console.log(`Та ${y}-д ${x} байх болно, ${z}-тэй гэрлэж ${n
 /**let a= parseInt(prompt('tursun on'));
 let b= parseInt(prompt('tootsoloh on'));
 console.log(`"Би ${b} онд ${b-a} настай байх болно."`) */
-let a=parseInt(prompt('odoogiin nas'));
+/**
+ * let a=parseInt(prompt('odoogiin nas'));
 let b=parseInt(prompt('tootsooloh nas'));
 let z=10;//sard ideh hemjee
 console.log((b-a)*12*10)
+ */
