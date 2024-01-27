@@ -27,7 +27,7 @@ for (let i=inputWord.length - 1; i>=0 ;  i--){
 }
 console.log(reversedWord === inputWord)
  */
-let inputword=prompt('word')
+/**let inputword=prompt('word')
 let letter=0
 function word(){for(let i=0;i<=inputword.length;i++){
     n=inputword[i]
@@ -40,4 +40,12 @@ function word(){for(let i=0;i<=inputword.length;i++){
     
 }
 console.log(letter)}
-word()
+word() */
+let n=parseInt(prompt('min'))
+let x=parseInt(prompt('max'))
+function rnumber(){
+    z=(Math.random()*(Math.abs(x-n) + n));
+    console.log(z);
+}
+rnumber()
+
