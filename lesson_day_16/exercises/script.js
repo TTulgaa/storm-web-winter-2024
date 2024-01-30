@@ -16,7 +16,9 @@ ex03ButtonElement.addEventListener('click',function(){
     document.body.style.backgroundColor='aqua'
 })
  */
-let div = document.createElement("p");
-div.append("Some text");
+let div = document.createElement("div");
+let p = document.createElement("p");
+div.append(p);
 
-document.write(div.textContent); // "Some text"
+console.log(div.childNodes); // NodeList [ <p> ]
+

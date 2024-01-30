@@ -1,0 +1,27 @@
+#box {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgb(94, 94, 110);
+    border-radius: 5px;
+}
+button{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+#result{
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 2px;
+    border: 1px solid black;
+}
