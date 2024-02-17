@@ -4,15 +4,16 @@ const ulElement = document.createElement("ul")
 result.appendChild(ulElement)
 let arry=[]
 
-if (localStorage.getItem('todolist') !== null) {
-    arry = JSON.parse(localStorage.getItem("todolist"))
+//if (localStorage.getItem('todolist') !== null) {
+//    arry = JSON.parse(localStorage.getItem("todolist"))
+//}
+//else{
 
-    
-}
+//}
 
 
 input.addEventListener('keydown', function(event){
-    if (event.key === 'Enter') {
+    if (event.key === 'Enter' && input.value!== "") {
         const liElement = document.createElement("li")
         ulElement.appendChild(liElement)
         liElement.textContent = input.value
