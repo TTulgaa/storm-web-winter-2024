@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 11px;
+}
+main{
+    padding: 5px 10px 10px;
+    margin: 0 auto;
+}
