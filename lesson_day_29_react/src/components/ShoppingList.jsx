@@ -1,4 +1,5 @@
-import data from '../../public/product.json'
+import data from '../assets/product.json'
+
 function Shoppinglist() {
     const products = data.products
     console.log(products)
@@ -26,7 +27,7 @@ function Product({ title, thumbnail, price, stock, rating, brand, img }) {
         <>
             <div className='max-w-350 bg-green'>
                 <h1>{title}</h1>
-                <img src={thumbnail} alt={title} />
+                <img src={thumbnail} alt={title} className=''/>
                 <div className='flex'>
                     <p className='m-2'>Price: {price}</p>
                     <p className='m-2'>Stock: {stock}</p>
