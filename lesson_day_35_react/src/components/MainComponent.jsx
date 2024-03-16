@@ -1,6 +1,6 @@
 export default function MainComponent({children}){
     return (
-        <div>
+        <div className="w-[982px] flex flex-col">
             {children}
         </div>
     )

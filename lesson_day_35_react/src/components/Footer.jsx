@@ -1,6 +1,6 @@
 export default function Footer(){
     return(
-        <div className="flex gap-8">
+        <div className="flex gap-8 mt-[100px]">
             <img src="" alt="logo" />
             <div>
                 <h2><b>Тусламж</b></h2>
