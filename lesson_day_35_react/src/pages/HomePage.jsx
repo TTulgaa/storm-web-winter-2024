@@ -10,17 +10,17 @@ import CategoryBlog from "../components/CategoryBlog"
 export default function HomePage() {
     console.log('home')
     return (
-        <div>
-            <div className="flex">
+    
+            <div className="flex mx-auto m-0 w-[982px] ">
                 {/* <SideBar menus={menus} /> */}
-                <div className="flex flex-col items-center">
+                
                     {/* <Header /> */}
                     <MainComponent>
                         <CategoryBlog />
                     </MainComponent>
                     {/* <Footer /> */}
-                </div>
+                
             </div>
-        </div>
+        
     )
 }

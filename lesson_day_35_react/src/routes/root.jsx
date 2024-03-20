@@ -7,7 +7,7 @@ import menus from "../data/menus";
 export default function Root() {
     return (
         <>
-            <div className="flex">
+            <div className="mx-auto flex m-0 w-[1440px]">
                 <SideBar menus={menus} />
                 <div>
                     <Header />
